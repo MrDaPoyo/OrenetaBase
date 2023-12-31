@@ -48,7 +48,6 @@ footer p, footer a {
 
 #tos {
   position: relative;
-  top: 50%;
   left: 50%;
   transform: translateX(-50%);
 }
