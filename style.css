@@ -3,6 +3,7 @@
 body {
   overflow: hidden;
   font-family: "Pixelify Sans", sans-serif;
+  background-color: #ffff9f;
 }
 
 #logo {
@@ -11,6 +12,7 @@ body {
   padding: 0;
   z-index: 2;
   pointer-events: none;
+  filter: blur(0.5px);
 }
 
 main {
@@ -36,6 +38,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: none;
 }
 
 #random {
@@ -44,10 +47,12 @@ footer {
 
 footer p, footer a {
   margin: auto;
+  width: auto; 
 }
 
 #field {
-  width: 50%;
+  width: 45%;
+  margin-right: 2.5%;
 }
 
 #submit {
@@ -57,4 +62,8 @@ footer p, footer a {
 input {
   font-family: "pixelify sans", sans-serif;
   font-size: 0.6em;
+}
+::placeholder {
+  text-align: left;
+  padding: 2%;
 }
